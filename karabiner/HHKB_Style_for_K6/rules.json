@@ -20,9 +20,7 @@
           "from": {
             "key_code": "up_arrow",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "parameters": {
@@ -68,9 +66,7 @@
           "from": {
             "key_code": "page_down",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "parameters": {
@@ -142,29 +138,6 @@
     {
       "description": "HHKB Style for K6: Disable unused keys",
       "manipulators": [
-        {
-          "conditions": [
-            {
-              "description": "Keychron K6",
-              "identifiers": [
-                {
-                  "product_id": 591,
-                  "vendor_id": 1452
-                }
-              ],
-              "type": "device_if"
-            }
-          ],
-          "from": {
-            "key_code": "left_control"
-          },
-          "to": [
-            {
-              "key_code": "vk_none"
-            }
-          ],
-          "type": "basic"
-        },
         {
           "conditions": [
             {
@@ -306,9 +279,7 @@
           "from": {
             "key_code": "tab",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -339,9 +310,7 @@
           "from": {
             "key_code": "tab",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -395,12 +364,8 @@
           "from": {
             "key_code": "backslash",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["shift"],
+              "optional": ["any"]
             }
           },
           "to": [
@@ -449,20 +414,14 @@
           "from": {
             "key_code": "delete_or_backspace",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["shift"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "type": "basic"
@@ -506,20 +465,14 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": [
-                "shift"
-              ],
-              "optional": [
-                "any"
-              ]
+              "mandatory": ["shift"],
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "grave_accent_and_tilde",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "type": "basic"
@@ -550,9 +503,7 @@
           "from": {
             "key_code": "semicolon",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -583,9 +534,7 @@
           "from": {
             "key_code": "slash",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -616,9 +565,7 @@
           "from": {
             "key_code": "open_bracket",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -649,9 +596,7 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -687,9 +632,7 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -720,9 +663,7 @@
           "from": {
             "key_code": "comma",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -753,9 +694,7 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -786,9 +725,7 @@
           "from": {
             "key_code": "period",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -824,9 +761,7 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -857,9 +792,7 @@
           "from": {
             "key_code": "close_bracket",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -890,9 +823,7 @@
           "from": {
             "key_code": "return_or_enter",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -923,14 +854,43 @@
           "from": {
             "key_code": "right_shift",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "down_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "HHKB Style for K6: Shift+ESC to tilde",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "description": "Keychron K6",
+              "identifiers": [
+                {
+                  "product_id": 591,
+                  "vendor_id": 1452
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
             }
           ],
           "type": "basic"
