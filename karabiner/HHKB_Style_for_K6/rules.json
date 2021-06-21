@@ -624,7 +624,7 @@
               "type": "device_if"
             },
             {
-              "name": "FN-B Pressed",
+              "name": "FN-A Pressed",
               "type": "variable_if",
               "value": 1
             }
@@ -655,7 +655,7 @@
               "type": "device_if"
             },
             {
-              "name": "FN-B Pressed",
+              "name": "FN-A Pressed",
               "type": "variable_if",
               "value": 1
             }
@@ -686,7 +686,7 @@
               "type": "device_if"
             },
             {
-              "name": "FN-B Pressed",
+              "name": "FN-A Pressed",
               "type": "variable_if",
               "value": 1
             }
@@ -717,7 +717,7 @@
               "type": "device_if"
             },
             {
-              "name": "FN-B Pressed",
+              "name": "FN-A Pressed",
               "type": "variable_if",
               "value": 1
             }
