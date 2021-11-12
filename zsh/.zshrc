@@ -70,7 +70,7 @@ ZSH_THEME="honukai"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  osx
+  macos
   node
   npm
   nvm
