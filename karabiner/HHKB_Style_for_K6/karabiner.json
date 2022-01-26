@@ -391,6 +391,11 @@
                                         "key_code": "delete_or_backspace"
                                     }
                                 ],
+                                "to_if_held_down": [
+                                    {
+                                        "key_code": "delete_or_backspace"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -441,6 +446,11 @@
                                     "key_code": "delete_or_backspace"
                                 },
                                 "to_if_alone": [
+                                    {
+                                        "key_code": "backslash"
+                                    }
+                                ],
+                                "to_if_held_down": [
                                     {
                                         "key_code": "backslash"
                                     }
