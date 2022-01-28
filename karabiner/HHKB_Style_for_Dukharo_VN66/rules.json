@@ -12,6 +12,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -20,7 +24,9 @@
           "from": {
             "key_code": "up_arrow",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "parameters": {
@@ -58,6 +64,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -66,7 +76,9 @@
           "from": {
             "key_code": "page_down",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "parameters": {
@@ -109,6 +121,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -146,6 +162,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -169,6 +189,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -192,6 +216,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -215,6 +243,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -243,6 +275,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -266,6 +302,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -279,7 +319,9 @@
           "from": {
             "key_code": "tab",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -297,6 +339,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -310,7 +356,9 @@
           "from": {
             "key_code": "tab",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -333,6 +381,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -361,6 +413,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -369,8 +425,12 @@
           "from": {
             "key_code": "backslash",
             "modifiers": {
-              "mandatory": ["shift"],
-              "optional": ["any"]
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -388,6 +448,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -416,6 +480,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -424,14 +492,20 @@
           "from": {
             "key_code": "delete_or_backspace",
             "modifiers": {
-              "mandatory": ["shift"],
-              "optional": ["any"]
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": ["shift"]
+              "modifiers": [
+                "shift"
+              ]
             }
           ],
           "type": "basic"
@@ -444,6 +518,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -467,6 +545,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -475,14 +557,20 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": ["shift"],
-              "optional": ["any"]
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
             {
               "key_code": "grave_accent_and_tilde",
-              "modifiers": ["shift"]
+              "modifiers": [
+                "shift"
+              ]
             }
           ],
           "type": "basic"
@@ -500,6 +588,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -513,7 +605,9 @@
           "from": {
             "key_code": "semicolon",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -531,6 +625,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -544,7 +642,9 @@
           "from": {
             "key_code": "slash",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -562,6 +662,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -575,7 +679,9 @@
           "from": {
             "key_code": "open_bracket",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -593,6 +699,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -606,7 +716,9 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -629,6 +741,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -642,7 +758,9 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -660,6 +778,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -673,7 +795,9 @@
           "from": {
             "key_code": "comma",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -691,6 +815,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -704,7 +832,9 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -722,6 +852,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -735,7 +869,9 @@
           "from": {
             "key_code": "period",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -758,6 +894,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -771,7 +911,9 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -789,6 +931,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -802,7 +948,9 @@
           "from": {
             "key_code": "close_bracket",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -820,6 +968,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -833,7 +985,9 @@
           "from": {
             "key_code": "return_or_enter",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -851,6 +1005,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -864,7 +1022,9 @@
           "from": {
             "key_code": "right_shift",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -887,6 +1047,10 @@
                 {
                   "product_id": 16386,
                   "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
                 }
               ],
               "type": "device_if"
@@ -895,7 +1059,9 @@
           "from": {
             "key_code": "escape",
             "modifiers": {
-              "mandatory": ["shift"]
+              "mandatory": [
+                "shift"
+              ]
             }
           },
           "to": [
@@ -908,69 +1074,77 @@
       ]
     },
     {
-        "description": "Custom Knob for VN66: Scroll Up and Down",
-        "manipulators": [
+      "description": "Custom Knob for VN66: Scroll Up and Down",
+      "manipulators": [
+        {
+          "conditions": [
             {
-                "conditions": [
-                    {
-                        "description": "Dukharo VN66",
-                        "identifiers": [
-                            {
-                                "product_id": 16386,
-                                "vendor_id": 1121
-                            }
-                        ],
-                        "type": "device_if"
-                    }
-                ],
-                "from": {
-                    "consumer_key_code": "volume_decrement",
-                    "modifiers": {
-                        "optional": [
-                            "any"
-                        ]
-                    }
+              "description": "Dukharo VN66",
+              "identifiers": [
+                {
+                  "product_id": 16386,
+                  "vendor_id": 1121
                 },
-                "to": [
-                    {
-                        "mouse_key": {
-                            "vertical_wheel": -800
-                        }
-                    }
-                ],
-                "type": "basic"
-            },
-            {
-                "conditions": [
-                    {
-                        "description": "Dukharo VN66",
-                        "identifiers": [
-                            {
-                                "product_id": 16386,
-                                "vendor_id": 1121
-                            }
-                        ],
-                        "type": "device_if"
-                    }
-                ],
-                "from": {
-                    "consumer_key_code": "volume_increment",
-                    "modifiers": {
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [
-                    {
-                        "mouse_key": {
-                            "vertical_wheel": 800
-                        }
-                    }
-                ],
-                "type": "basic"
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
+                }
+              ],
+              "type": "device_if"
             }
-        ]
+          ],
+          "from": {
+            "consumer_key_code": "volume_decrement",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": -800
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "description": "Dukharo VN66",
+              "identifiers": [
+                {
+                  "product_id": 16386,
+                  "vendor_id": 1121
+                },
+                {
+                  "product_id": 64020,
+                  "vendor_id": 9639
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "consumer_key_code": "volume_increment",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": 800
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
