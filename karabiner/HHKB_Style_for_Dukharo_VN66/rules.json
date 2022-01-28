@@ -906,6 +906,71 @@
           "type": "basic"
         }
       ]
+    },
+    {
+        "description": "Custom Knob for VN66: Scroll Up and Down",
+        "manipulators": [
+            {
+                "conditions": [
+                    {
+                        "description": "Dukharo VN66",
+                        "identifiers": [
+                            {
+                                "product_id": 16386,
+                                "vendor_id": 1121
+                            }
+                        ],
+                        "type": "device_if"
+                    }
+                ],
+                "from": {
+                    "consumer_key_code": "volume_decrement",
+                    "modifiers": {
+                        "optional": [
+                            "any"
+                        ]
+                    }
+                },
+                "to": [
+                    {
+                        "mouse_key": {
+                            "vertical_wheel": -800
+                        }
+                    }
+                ],
+                "type": "basic"
+            },
+            {
+                "conditions": [
+                    {
+                        "description": "Dukharo VN66",
+                        "identifiers": [
+                            {
+                                "product_id": 16386,
+                                "vendor_id": 1121
+                            }
+                        ],
+                        "type": "device_if"
+                    }
+                ],
+                "from": {
+                    "consumer_key_code": "volume_increment",
+                    "modifiers": {
+                        "optional": [
+                            "any"
+                        ]
+                    }
+                },
+                "to": [
+                    {
+                        "mouse_key": {
+                            "vertical_wheel": 800
+                        }
+                    }
+                ],
+                "type": "basic"
+            }
+        ]
     }
   ]
 }
