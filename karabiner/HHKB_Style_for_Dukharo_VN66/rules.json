@@ -172,33 +172,6 @@
             }
           ],
           "from": {
-            "key_code": "page_up"
-          },
-          "to": [
-            {
-              "key_code": "vk_none"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "conditions": [
-            {
-              "description": "Dukharo VN66",
-              "identifiers": [
-                {
-                  "product_id": 16386,
-                  "vendor_id": 1121
-                },
-                {
-                  "product_id": 64020,
-                  "vendor_id": 9639
-                }
-              ],
-              "type": "device_if"
-            }
-          ],
-          "from": {
             "key_code": "left_arrow"
           },
           "to": [
@@ -371,7 +344,7 @@
       ]
     },
     {
-      "description": "HHKB Style for VN66: \\ to BS, ⇧+\\ to Del, BS to \\, home to `",
+      "description": "HHKB Style for VN66: \\ to BS, ⇧+\\ to Del, BS to \\, PgUp to `",
       "manipulators": [
         {
           "conditions": [
@@ -528,7 +501,7 @@
             }
           ],
           "from": {
-            "key_code": "home"
+            "key_code": "page_up"
           },
           "to": [
             {
@@ -555,7 +528,7 @@
             }
           ],
           "from": {
-            "key_code": "home",
+            "key_code": "page_up",
             "modifiers": {
               "mandatory": [
                 "shift"
