@@ -169,3 +169,6 @@ export GOHACK="$HOME/Documents/Project/Gohack"
 
 ## check ip
 alias ip="curl -L https://postman-echo.com/ip"
+
+## rust
+source $HOME/.cargo/env
