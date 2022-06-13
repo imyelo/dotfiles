@@ -1,0 +1,1 @@
+In addition, clone https://github.com/rime/rime-emoji/tree/master/opencc/* to the same directory

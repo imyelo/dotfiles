@@ -1,0 +1,9 @@
+patch:
+  style:
+    font_point: 14
+    line_spacing: 21
+    corner_radius: 8
+    horizontal: true
+    inline_preedit: true
+    color_scheme: luna
+  app_options:
