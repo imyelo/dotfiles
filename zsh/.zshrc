@@ -78,6 +78,7 @@ plugins=(
   autojump
   docker
   kubectl
+  kube-ps1
 )
 
 source $ZSH/oh-my-zsh.sh
