@@ -123,8 +123,24 @@ alias dsize="du -h -d 1"
 ## 生成随机密码
 alias random="cat /dev/urandom | LC_CTYPE=C tr -dc '0-9a-zA-Z' | fold -w 256 | head -n 1"
 
+## 复制粘贴
+alias pbcopy="xsel --clipboard --input"
+alias pbpaste="xsel --clipboard --output"
+
+## HEX
+alias hex="xxd"
+alias hexf="cat $1 | hex"
+alias bin="xxd -p -r"
+alias binf="cat $1 | bin"
+
+## 网络
+alias ifconfig="ip -c a"
+
 ## http(s) proxy
 alias hp="HTTP_PROXY=http://127.0.0.1:8096 HTTPS_PROXY=http://127.0.0.1:8096 NO_PROXY=localhost,127.0.0.0/8,10.96.0.0/12,192.168.99.0/24,192.168.39.0/24,::1 http_proxy=http://127.0.0.1:8096 https_proxy=http://127.0.0.1:8096"
+
+## check ip
+alias ip="curl -L https://postman-echo.com/ip"
 
 ## proxychains4
 #alias proxychains4="proxychains4 -f /usr/local/etc/proxychains4.conf"
@@ -167,8 +183,27 @@ export GO111MODULE="on"
 export GOHACK="$HOME/Documents/Project/Gohack"
 #alias go="hp go"
 
-## check ip
-alias ip="curl -L https://postman-echo.com/ip"
-
 ## rust
 source $HOME/.cargo/env
+
+## cmake
+export CC="/usr/bin/gcc"
+export CXX="/usr/bin/g++"
+export CMAKE_MAKE_PROGRAM="/usr/bin/make"
+export CMAKE_C_COMPILER="/usr/bin/gcc"
+export CMAKE_CXX_COMPILER="/usr/bin/g++"
+
+## wasm
+alias emsdkenv="source \"$HOME/repositories/forks/emscripten-core/emsdk/emsdk_env.sh\""
+
+## kubernetes
+export KUBECONFIG=$HOME/.kube/config
+
+## python
+export PYTHON_BUILD_MIRROR_URL_SKIP_CHECKSUM=1
+export PYTHON_BUILD_MIRROR_URL="https://npm.taobao.org/mirrors/python/"
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
