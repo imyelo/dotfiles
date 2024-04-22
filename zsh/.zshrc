@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/yelo/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -74,7 +74,10 @@ plugins=(
   node
   npm
   nvm
+  fnm
   yarn
+  pyenv
+  python
   autojump
   docker
   kubectl
@@ -154,23 +157,18 @@ export VISUAL=vim
 eval $(thefuck --alias)
 
 ## nodejs
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export FNM_DIR="$HOME/.fnm"
+export PATH="$FNM_DIR:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-export NODEJS_ORG_MIRROR="https://npm.taobao.org/mirrors/node"
-#export NVM_NODEJS_ORG_MIRROR="https://npm.taobao.org/mirrors/node"
-export NVM_NODEJS_ORG_MIRROR="https://mirrors.tencent.com/nodejs-release"
-export PHANTOMJS_CDNURL="https://npm.taobao.org/dist/phantomj"
+[ -s "$FNM_DIR/fnm" ] && eval "$(fnm env --use-on-cd)"
+
+export FNM_NODE_DIST_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
+export PHANTOMJS_CDNURL="https://npm.taobao.org/dist/phantomjs"
 export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 export PUPPETEER_DOWNLOAD_HOST="https://npm.taobao.org/mirrors"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
 ## homebrew
-#export PATH="/usr/local/sbin:$PATH"
-#export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tencent.com/homebrew-bottles
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
 
 ## gpg
 GPG_TTY=$(tty)
