@@ -200,7 +200,7 @@ export KUBECONFIG=$HOME/.kube/config
 
 ## python
 export PYTHON_BUILD_MIRROR_URL_SKIP_CHECKSUM=1
-export PYTHON_BUILD_MIRROR_URL="https://npm.taobao.org/mirrors/python/"
+export PYTHON_BUILD_MIRROR_URL="https://cdn.npmmirror.com/binaries/python/"
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
