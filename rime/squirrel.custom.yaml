@@ -3,7 +3,7 @@ patch:
     font_point: 14
     line_spacing: 21
     corner_radius: 8
-    horizontal: true
+    candidate_list_layout: linear
     inline_preedit: true
     color_scheme: luna
   app_options:
